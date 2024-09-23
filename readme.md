@@ -26,7 +26,7 @@ Sample body:
 
 
 # Samples:
-Without results: https://jira.beeline.com/browse/TECH-20752
+- Without results: https://jira.beeline.com/browse/TECH-20752
 - Behavioral issue: https://jira.beeline.com/browse/TECH-20749
 - Feature not supported: https://jira.beeline.com/browse/TECH-20750
 - Specific performance issue: https://jira.beeline.com/browse/TECH-20751
