@@ -8,7 +8,7 @@ namespace HackathonAPI
         public string Id { get; set; }
         [SearchableField]
         public string[] Tags { get; set; }
-        [SimpleField]
+        [SearchableField]
         public string Problem { get; set; }
         [SimpleField]
         public string Investigation { get; set; }
