@@ -3,7 +3,7 @@
 
 ## Flow
 
-<img width="581" alt="image" src="https://github.com/user-attachments/assets/85340a23-1c93-4ddb-9844-d4e58f54a716">
+<img width="562" alt="image" src="https://github.com/user-attachments/assets/1b9607f4-4fda-4fd4-86cd-ffdc3c75b9d3">
 
 ## Azure AI Language Extraction
 <img width="535" alt="image" src="https://github.com/user-attachments/assets/6572f2cf-3c61-4468-96a1-79380c3a742c">
