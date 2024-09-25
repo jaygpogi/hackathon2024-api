@@ -31,10 +31,10 @@ Sample body:
 - Feature not supported: https://jira.beeline.com/browse/TECH-20750
 - Specific performance issue: https://jira.beeline.com/browse/TECH-20751
 
-# Future Development
-- Figure out a way to consume the API on the new Jira cloud.
-- Use Azure AI Language Text Classification to categorize existing indexes for more accuracy. (Assignment, BTE, Reports, etc)
-- Declare a "bias" list of phrases to eliminate any non-related texts. 
-- Right now this uses BM25 search algorithm which depends on term frequency. Ideally, this should use semantic ranking logic that also understands contexts (but needs higher tier account) for more accurate results.
-- We fill out the Status Summary Jira field of resolved inquiry tickets. This field indicates the problem, investigation, and recommendation. A new endpoint can be developed that can push new records on the search index based on this field if nothing is retrieved for a ticket.
-- Get max top 5 results. Make the results in popup collapsible. 
+# Possible Future Development
+- When a ticket gets resolved, Guardian devs fill up the Status Summary Jira field. This field indicates the problem, investigation, and recommendation. A new endpoint can be developed that can push new records on the search index based on this field if nothing is retrieved for a ticket.
+- More Accuracy
+    - Use Azure AI Language Text Classification for categorization. (Assignment, BTE, Reports, etc)
+    - Declare a "bias" list of phrases to eliminate any non-related texts.
+    - Right now this uses BM25 search algorithm which depends on term frequency. This should use semantic ranking logic that also understands contexts (but needs higher tier account).
+  
