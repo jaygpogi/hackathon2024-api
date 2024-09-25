@@ -3,7 +3,7 @@
 
 ## Flow
 
-<img width="550" alt="image" src="https://github.com/user-attachments/assets/f07d32aa-bd17-4ce4-aa53-1b3456e06d60">
+<img width="575" alt="image" src="https://github.com/user-attachments/assets/8e34dc12-313f-4359-9a48-eefb4c0b0a0a">
 
 ## Azure AI Language Extraction
 <img width="535" alt="image" src="https://github.com/user-attachments/assets/6572f2cf-3c61-4468-96a1-79380c3a742c">
@@ -37,3 +37,4 @@ Sample body:
 - Declare a "bias" list of phrases to eliminate any non-related texts. 
 - Right now this uses BM25 search algorithm which depends on term frequency. Ideally, this should use semantic ranking logic that also understands contexts (but needs higher tier account) for more accurate results.
 - We fill out the Status Summary Jira field of resolved inquiry tickets. This field indicates the problem, investigation, and recommendation. A new endpoint can be developed that can push new records on the search index based on this field if nothing is retrieved for a ticket.
+- Get max top 5 results. Make the results in popup collapsible. 
