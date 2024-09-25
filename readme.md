@@ -9,7 +9,7 @@
 <img width="535" alt="image" src="https://github.com/user-attachments/assets/6572f2cf-3c61-4468-96a1-79380c3a742c">
 
 ## Azure AI Search Indexes
-<img width="813" alt="image" src="https://github.com/user-attachments/assets/cd38a6fb-38b0-43e5-8a71-d2e5314d6f6f">
+<img width="805" alt="image" src="https://github.com/user-attachments/assets/72c5dcbb-4e15-45d5-a5c5-68c561f0b227">
 
 <img width="484" alt="image" src="https://github.com/user-attachments/assets/903ea8b9-b18b-40f3-8503-c69a055c4780">
 
