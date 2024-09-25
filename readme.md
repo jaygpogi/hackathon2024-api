@@ -31,10 +31,8 @@ Sample body:
 - Feature not supported: https://jira.beeline.com/browse/TECH-20750
 - Specific performance issue: https://jira.beeline.com/browse/TECH-20751
 
-# Possible Future Development
-- When a ticket gets resolved, Guardian devs fill up the Status Summary Jira field. This field indicates the problem, investigation, and recommendation. A new endpoint can be developed that can push new records on the search index based on this field if nothing is retrieved for a ticket.
-- More Accuracy
-    - Use Azure AI Language Text Classification for categorization. (Assignment, BTE, Reports, etc)
-    - Declare a "bias" list of phrases to eliminate any non-related texts.
-    - Right now this uses BM25 search algorithm which depends on term frequency. This should use semantic ranking logic that also understands contexts (but needs higher tier account).
+#  Accuracy Improvement
+- Use Azure AI Language Text Classification for categorization. (Assignment, BTE, Reports, etc)
+- Declare a "bias" list of phrases to eliminate any non-related texts.
+- Right now this uses BM25 search algorithm which depends on term frequency. This should use semantic ranking logic that also understands contexts (but needs higher tier account).
   
