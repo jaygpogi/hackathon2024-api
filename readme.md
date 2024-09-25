@@ -25,13 +25,13 @@ Sample body:
 ```
 
 
-# Samples:
+## Samples:
 - Without results: https://jira.beeline.com/browse/TECH-20752
 - Behavioral issue: https://jira.beeline.com/browse/TECH-20749
 - Feature not supported: https://jira.beeline.com/browse/TECH-20750
 - Specific performance issue: https://jira.beeline.com/browse/TECH-20751
 
-#  Accuracy Improvement
+##  Accuracy Improvement
 - Use Azure AI Language Text Classification for categorization. (Assignment, BTE, Reports, etc)
 - Declare a "bias" list of phrases to eliminate any non-related texts.
 - Right now this uses BM25 search algorithm which depends on term frequency. This should use semantic ranking logic that also understands contexts (but needs higher tier account).
